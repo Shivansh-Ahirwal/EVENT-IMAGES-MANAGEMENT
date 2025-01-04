@@ -3,3 +3,5 @@
 **/__pycache__/
 
 ImageManagement/Manager/Event-images/*
+
+ImageManagement/Manager/Output-images/*
