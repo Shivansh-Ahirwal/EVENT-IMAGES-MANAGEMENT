@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.conf import settings
 
 def display_grouped_faces(request):
-    output_dir = os.path.join(settings.BASE_DIR, 'Manager/Output_Images')  # Adjusted to your folder
+    output_dir = os.path.join(settings.BASE_DIR, 'Manager/Output-Images')  # Adjusted to your folder
     images = []
 
     if os.path.exists(output_dir):
